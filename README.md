@@ -28,4 +28,15 @@
 
 
 
+### install the confetti package
+```
+npm install confetti
+```
 
+//import the packgage in your component:
+```
+import Confetti from "react-confetti";
+```
+
+#### live site url: 
+#### repo url: 
