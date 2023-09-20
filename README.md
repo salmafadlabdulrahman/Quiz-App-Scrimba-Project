@@ -14,8 +14,9 @@
 - check answers and display score
 - Mark the correct and the wrong answers
 - if the user got all the answers correct make a confetti go up
+  
 
-  ### Screenshots:
+### Screenshots:
   
 ![screencapture-127-0-0-1-5173-2023-09-20-13_47_14](https://github.com/salmafadlabdulrahman/Quiz-App-Scrimba-Project/assets/88597694/8eaae016-e35b-49dd-b8cd-cbf59d119f8b)
 
