@@ -38,5 +38,5 @@ npm install confetti
 import Confetti from "react-confetti";
 ```
 
-#### live site url: 
-#### repo url: 
+#### live site url: https://famous-treacle-193841.netlify.app/
+#### repo url: https://github.com/salmafadlabdulrahman/Quiz-App-Scrimba-Project/tree/main
