@@ -51,29 +51,3 @@ function Question(props) {
 }
 
 export default Question;
-//options
-//options = {shuffleAnswers(item.correct_answer, item.incorrect_answers)}
-
-/*onClick={() => {
-              setSelectedAnswer(answer);
-              props.onAnswerSubmit(answer);
-            }} */
-
-/*{props.shuffleAnswers(props.item.correct_answer, props.item.incorrect_answers).map(
-          (answer) => (
-            <button
-              className="answer"
-              onClick={() => {
-                setSelectedAnswer(answer)
-                props.onAnswerSubmit(answer, props.id)
-              }}
-              style={{backgroundColor: selectedAnswer === answer ? "#D6DBF5" : "white"}}  
-            >
-              {answer}
-            </button>
-          )
-        )} */
-
-/*{props.shuffleAnswers(props.item.correct_answer, props.item.incorrect_answers).map((option) => {
-            <button className="answer" onClick={() => handleAnswerSelection(option)}> {option}</button>
-        })} */
