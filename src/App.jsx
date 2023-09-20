@@ -31,7 +31,7 @@ function App() {
         setAllQuestions(formattedQuestions);
       });
     } catch (error) {
-      console.error("Error fetching questions:", error);
+      alert(error.message)
     }
   };
 
