@@ -35,9 +35,7 @@ function Question(props) {
             }}
             disabled = {props.disabled}
             style={{
-              //backgroundColor: selectedAnswer === answer ? "#D6DBF5" : props.submitted ? "#D9D9D9" : (props.submitted && selectedAnswer === props.correctAnswer ? "#94D7A2" : "#F8BCBC"),
               border: selectedAnswer === answer ? "none" : props.submitted ? "1px solid #F0F0F0" : "1px solid #293264",
-              //backgroundColor: props.submitted && selectedAnswer === props.correctAnswer ? "94D7A2" : "F8BCBC"
               backgroundColor: getButtonColor(answer)
             }}
             
@@ -46,7 +44,7 @@ function Question(props) {
           </button>
         ))}
       </div>
-    </div> //checkScore
+    </div>
   );
 }
 
